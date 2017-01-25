@@ -7,7 +7,13 @@
 a{
     color: #2f073b;
 }
+h2{
+    font-weight: 500;
+    font-size: 20px;
+}
+body{
 
+}
 header .wrapper{
     display: flex;
     padding: 40px 0 20px;
@@ -92,4 +98,121 @@ footer .wrapper{
 }
 .footer-contact-info{
     text-align: center;
+}
+
+/*news-page*/
+
+.flex-wrapper{
+    display: flex;
+}
+.news-main-content{
+    width: 70%;
+    border-right: solid 2px lightgrey;
+    padding: 20px 35px;
+}
+.news-main-pic{
+    display: block;
+    margin: 10px auto;
+}
+.lg-news-text-content p{
+    text-indent: 1.5em;
+    font-size: 16px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+.news-lg-add-info{
+    text-align: right;
+}
+.news-lg-add-info span{
+    margin-right: 7px;
+    font-size: 14px;
+}
+.lg-news-aside-info{
+    width: 30%;
+    padding: 20px 15px;
+}
+ul li{
+    list-style-type: none;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.news-box-aside h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.banner-img{
+    margin: 15px 0;
+}
+
+/*editor-mode*/
+.editor-main-content{
+    width: 70%;
+    border-right: solid 2px black;
+}
+.registered-form input[type="text"],.registered-form textarea, .registered-form select{
+    display: block;
+    width: 100%;
+    height: 34px;
+    margin: 10px 0;
+    outline: purple;
+    padding: 5px;
+}
+.registered-form textarea{
+    resize: none;
+    height: 250px;
+}
+.registered-form{
+    padding: 0 5% 2%;
+}
+.registered-header{
+    text-align: center;
+    padding: 7px 0;
+    margin-bottom: 15px;
+    border-bottom: solid 2px black;
+}
+.editor-aside-block{
+    width: 30%;
+}
+.editor-news-box{
+    border: solid 1px black;
+    width: 90%;
+    margin: 15px auto;
+}
+.editor-news-box h3 {
+    font-size: 15px;
+    font-weight: 600;
+}
+.editor-news-inner-padding{
+    padding: 7px;
+}
+.tool-bar{
+    padding: 7px;
+    border-top: solid 1px;
+}
+.news-current-mode{
+    padding: 3px 6px;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: white;
+}
+.news-published-mode{
+    background-color: #23bf23;
+}
+.news-edit-mode{
+    background-color: yellow;
+}
+.button-block{
+    text-align: center;
+    padding-top: 4%;
+}
+.button-block button{
+    padding: 4px;
+    border-radius: 5px;
+    color: white;
+    background-color: purple;
+    border: solid 1px black;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 5px;
 }
