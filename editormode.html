@@ -16,7 +16,7 @@
 </head>
 <body>
 <header>
-    <div class="wrapper">
+    <div class="wrapper header-styles">
         <div>
             <h1 class="main-header">
                 <a href="index.html">
@@ -34,7 +34,7 @@
     </div>
 </header>
 <main>
-    <div class="wrapper flex-wrapper">
+    <div class="wrapper flex-wrapper editor-flex-wrapper">
         <div class="editor-main-content">
             <h2 class="registered-header">Создание новости</h2>
             <form class="registered-form">
@@ -68,31 +68,33 @@
             </form>
         </div>
         <aside class="editor-aside-block">
-            <h2 class="registered-header">Мои новости</h2>
-            <div class="editor-news-box">
-                <div class="editor-news-inner-padding">
-                    <img src="images/internet-banking.jpg" alt="Электронные кошельки">
-                    <h3>Белорусам разрешили открывать электронные кошельки не выходя из дома</h3>
+            <h2 class="registered-header">Мои новости:</h2>
+            <div class="editor-news-block">
+                <div class="editor-news-box">
+                    <div class="editor-news-inner-padding">
+                        <img src="images/internet-banking.jpg" alt="Электронные кошельки">
+                        <h3>Белорусам разрешили открывать электронные кошельки не выходя из дома</h3>
+                    </div>
+                    <div class="tool-bar">
+                        <span class="news-current-mode news-published-mode">Опубликованно</span>
+                        <i class="fa fa-globe fa-1x" aria-hidden="true" ></i>
+                        <i class="fa fa-desktop fa-1x" aria-hidden="true"></i>
+                        <i class="fa fa-pencil fa-1x" aria-hidden="true"></i>
+                        <i class="fa fa-trash fa-1x" aria-hidden="true"></i>
+                    </div>
                 </div>
-                <div class="tool-bar">
-                    <span class="news-current-mode news-published-mode">Опубликованно</span>
-                    <i class="fa fa-globe fa-1x" aria-hidden="true" ></i>
-                    <i class="fa fa-desktop fa-1x" aria-hidden="true"></i>
-                    <i class="fa fa-pencil fa-1x" aria-hidden="true"></i>
-                    <i class="fa fa-trash fa-1x" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="editor-news-box">
-                <div class="editor-news-inner-padding">
-                    <img src="images/rotshild.jpg" alt="Особняк Ротшильда">
-                    <h3>Под Парижем обокрали особняк Ротшильда</h3>
-                </div>
-                <div class="tool-bar">
-                    <span class="news-current-mode news-edit-mode">Редактируется</span>
-                    <i class="fa fa-globe fa-1x" aria-hidden="true" ></i>
-                    <i class="fa fa-desktop fa-1x" aria-hidden="true"></i>
-                    <i class="fa fa-pencil fa-1x" aria-hidden="true"></i>
-                    <i class="fa fa-trash fa-1x" aria-hidden="true"></i>
+                <div class="editor-news-box">
+                    <div class="editor-news-inner-padding">
+                        <img src="images/rotshild.jpg" alt="Особняк Ротшильда">
+                        <h3>Под Парижем обокрали особняк Ротшильда</h3>
+                    </div>
+                    <div class="tool-bar">
+                        <span class="news-current-mode news-edit-mode">Редактируется</span>
+                        <i class="fa fa-globe fa-1x" aria-hidden="true" ></i>
+                        <i class="fa fa-desktop fa-1x" aria-hidden="true"></i>
+                        <i class="fa fa-pencil fa-1x" aria-hidden="true"></i>
+                        <i class="fa fa-trash fa-1x" aria-hidden="true"></i>
+                    </div>
                 </div>
             </div>
         </aside>

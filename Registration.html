@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>Title</title>
+    <title>Registration</title>
 
     <!--CSS-->
     <link href="css/style.css" rel="stylesheet">
@@ -16,7 +16,7 @@
 </head>
 <body>
     <header>
-        <div class="wrapper">
+        <div class="wrapper header-styles">
             <div>
                 <h1 class="main-header">
                     <a href="index.html">
@@ -27,7 +27,6 @@
             <div>
                 <a href="#">
                     <i class="fa fa-user-circle fa-lg"></i>
-
                     Войти
                 </a>
             </div>
@@ -35,12 +34,38 @@
     </header>
     <main>
         <div class="wrapper">
-            <h2>Регистрация</h2>
+            <h2 class="registration-place">Регистрация</h2>
             <form>
-                <div>
-                    <p></p>
+                <div class="registration-field-box">
+                    <p>Логин</p>
+                    <input type="text" required placeholder="Логин">
                 </div>
-
+                <div class="registration-field-box">
+                    <p>Пароль</p>
+                    <input type="password" placeholder="Пароль" required>
+                </div>
+                <div class="registration-field-box">
+                    <p>Электронная почта</p>
+                    <input type="email" placeholder="Электронная почта" required>
+                </div>
+                <hr class="form-divider">
+                <div class="registration-field-box">
+                    <p>Имя и Фамилия</p>
+                    <input type="text" placeholder="Имя Фамилия">
+                </div>
+                <div class="registration-field-box">
+                    <p>Дата рождения</p>
+                    <input type="date">
+                </div>
+                <div class="registration-field-box">
+                    <p>Телефон</p>
+                    <input type="text" placeholder="Телефон">
+                </div>
+                <div class="registration-place">
+                    <button>
+                        Зарегистрироваться
+                    </button>
+                </div>
             </form>
         </div>
     </main>
